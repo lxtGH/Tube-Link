@@ -2,8 +2,9 @@
 
 Authors: [Xiangtai Li](https://lxtgh.github.io/), [Haobo Yuan](https://yuanhaobo.me/), [Wenwei Zhang](http://zhangwenwei.cn/), [Guangliang Cheng](https://sites.google.com/view/guangliangcheng), [Jiangmiao Pang](https://oceanpang.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/).
 
-**Universal Video Segmentaion For VSS, VPS and VIS.**
+**Universal Video Segmentation Model For VSS, VPS and VIS**
 
+![avatar](./assets/figs/teaser.png)
 
 [[PDF]]() [[CODE]](https://github.com/lxtGH/Tube-Link)
 
@@ -12,7 +13,7 @@ Authors: [Xiangtai Li](https://lxtgh.github.io/), [Haobo Yuan](https://yuanhaobo
 <details open>
 <summary>Demo</summary>
 
-![vss_demo](assets/vss/vspw.gif)
+![vss_demo](assets/figs/vss/vspw.gif)
 
 </details>
 
@@ -22,9 +23,9 @@ Authors: [Xiangtai Li](https://lxtgh.github.io/), [Haobo Yuan](https://yuanhaobo
 <details open>
 <summary>Demo</summary>
 
-![vis_demo_1](assets/vis/vis_001.gif) 
+![vis_demo_1](assets/figs/vis/vis_001.gif) 
 
-![vis_demo_2](assets/vis/vis_002.gif)
+![vis_demo_2](assets/figs/vis/vis_002.gif)
 
 </details>
 
