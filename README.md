@@ -9,12 +9,24 @@ Authors: [Xiangtai Li](https://lxtgh.github.io/), [Haobo Yuan](https://yuanhaobo
 
 ## Visualization Results
 ### [VSS] VSPW
+<details open>
+<summary>Demo</summary>
+
 ![vss_demo](assets/vss/vspw.gif)
+
+</details>
+
 
 
 ### [VIS] Youtube-VIS 2019
+<details open>
+<summary>Demo</summary>
 
+![vis_demo_1](assets/vis/vis_001.gif) 
 
+![vis_demo_2](assets/vis/vis_002.gif)
+
+</details>
 
 ### [VPS] VIP-Seg
 
