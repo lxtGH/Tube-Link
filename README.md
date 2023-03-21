@@ -1,6 +1,31 @@
-# Tube-Link: A Flexible Cross Tube Baseline for Universal Video Segmentation
+<br />
+<p align="center">
+  <h1 align="center">Tube-Link: A Flexible Cross Tube Baseline for Universal Video Segmentation</h1>
+  <p align="center">
+    Arxiv, 2023
+    <br />
+    <a href="https://lxtgh.github.io/"><strong>Xiangtai Li</strong></a>
+    ·
+    <a href="https://yuanhaobo.me/"><strong>Haobo Yuan</strong></a>
+    ·
+    <a href="https://zhangwenwei.cn/"><strong>Wenwei Zhang</strong></a>
+    ·
+    <a href="https://sites.google.com/view/guangliangcheng"><strong>Guangliang Cheng</strong></a>
+    <br />
+    <a href="https://oceanpang.github.io/"><strong>Jiangmiao Pang</strong></a>
+    .
+    <a href="https://www.mmlab-ntu.com/person/ccloy/"><strong>Chen Change Loy*</strong></a>
+  </p>
 
-Authors: [Xiangtai Li](https://lxtgh.github.io/), [Haobo Yuan](https://yuanhaobo.me/), [Wenwei Zhang](http://zhangwenwei.cn/), [Guangliang Cheng](https://sites.google.com/view/guangliangcheng), [Jiangmiao Pang](https://oceanpang.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/).
+  <p align="center">
+    <a href=''>
+      <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
+    </a>
+    <a href='' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a>
+  </p>
+<br />
 
 **Universal Video Segmentation Model For VSS, VPS and VIS**
 
@@ -8,7 +33,26 @@ Code will be released. Please stay tuned.
 
 ![avatar](./assets/figs/teaser.png)
 
-[[PDF]]() [[CODE]](https://github.com/lxtGH/Tube-Link)
+
+[[Paper]]() [[CODE]](https://github.com/lxtGH/Tube-Link)
+
+
+## Features
+
+### $\color{#2F6EBA}{Universal Video Segmentation Model}$ 
+
+- A new framework unifies online video segmentation methods and near online video segmentation methods
+- A new unified solution for three video segmentation tasks: VSS, VIS and VPS.
+
+### $\color{#2F6EBA}{Explore the Cross Tube Relation}$ 
+
+- The first video segmentation method that explores the cross tube relation.
+- Proposed Tube-wise matching performs better Frame-wise matching.
+
+### $\color{#2F6EBA}{State-of-the-Art Performance}$  
+- Achieves the strong performance on VIS, VSS and VPS datasets (five datasets)
+- Even better performance than those specific architecture.
+
 
 ## Visualization Results
 ### [VSS] VSPW
@@ -42,7 +86,9 @@ Code will be released. Please stay tuned.
 ### [VPS] KITTI-STEP
 <details open>
 <summary>Demo</summary>
+
 ![vps_demo_3](assets/figs/vps/vps_03.gif)
+
 </details>
 
 
