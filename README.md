@@ -27,7 +27,18 @@
   </p>
 <br />
 
-**Universal Video Segmentation Model For VSS, VPS and VIS**
+****Universal Video Segmentation Model For VSS, VPS and VIS**
+
+## Abstract
+
+The goal of video segmentation is to accurately segment and track every pixel in diverse scenarios.
+In this paper, we present Tube-Link, a versatile framework that addresses multiple core tasks of video segmentation with a unified architecture.
+Our framework is a near-online approach that takes a short subclip as input and outputs the corresponding spatial-temporal tube masks.
+To enhance the modeling of cross-tube relationships, we propose an effective way to perform tube-level linking via attention along the queries.
+In addition, we introduce temporal contrastive learning to instance-wise discriminative features for tube-level association.
+Our approach offers flexibility and efficiency for both short and long video inputs, as the length of each subclip can be varied according to the needs of datasets or scenarios.
+Tube-Link outperforms existing specialized architectures by a significant margin on five video segmentation datasets.
+Specifically, it achieves almost 13% relative improvements on VIPSeg and 4% improvements on KITTI-STEP over the strong baseline Video K-Net. When using a ResNet50 backbone on Youtube-VIS-2019 and 2021, Tube-Link boosts IDOL by 3% and 4%, respectively. 
 
 Code will be released. Please stay tuned.
 
