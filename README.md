@@ -61,8 +61,8 @@ Code will be released. Please stay tuned.
 - Proposed Tube-wise matching performs better Frame-wise matching.
 
 ### $\color{#2F6EBA}{Strong\ Performance}$  
-- Achieves the strong performance on VIS, VSS and VPS datasets (five datasets)
-- Even better performance than those specific architectures.
+- Achieves the strong performance on VIS, VSS and VPS datasets (five datasets) in one unified architecture.
+- AchievesEven better performance than those specific architectures.
 
 
 ## Visualization Results
@@ -88,6 +88,7 @@ Code will be released. Please stay tuned.
 
 <details open>
 <summary>Demo</summary>
+
 ![vps_demo_1](assets/figs/vps/vps_01.gif) 
 
 ![vps_demo_2](assets/figs/vps/vps_02.gif)
