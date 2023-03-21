@@ -31,15 +31,20 @@ Code will be released. Please stay tuned.
 
 ### [VPS] VIP-Seg
 
-
+<details open>
+<summary>Demo</summary>
 ![vps_demo_1](assets/figs/vps/vps_01.gif) 
 
 ![vps_demo_2](assets/figs/vps/vps_02.gif)
 
+</details>
 
 ### [VPS] KITTI-STEP
-
+<details open>
+<summary>Demo</summary>
 ![vps_demo_3](assets/figs/vps/vps_03.gif)
+</details>
+
 
 
 ## Citation
