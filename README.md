@@ -4,6 +4,8 @@ Authors: [Xiangtai Li](https://lxtgh.github.io/), [Haobo Yuan](https://yuanhaobo
 
 **Universal Video Segmentation Model For VSS, VPS and VIS**
 
+Code will be released. Please stay tuned.
+
 ![avatar](./assets/figs/teaser.png)
 
 [[PDF]]() [[CODE]](https://github.com/lxtGH/Tube-Link)
@@ -17,8 +19,6 @@ Authors: [Xiangtai Li](https://lxtgh.github.io/), [Haobo Yuan](https://yuanhaobo
 
 </details>
 
-
-
 ### [VIS] Youtube-VIS 2019
 <details open>
 <summary>Demo</summary>
@@ -30,6 +30,16 @@ Authors: [Xiangtai Li](https://lxtgh.github.io/), [Haobo Yuan](https://yuanhaobo
 </details>
 
 ### [VPS] VIP-Seg
+
+
+![vps_demo_1](assets/figs/vps/vps_01.gif) 
+
+![vps_demo_2](assets/figs/vps/vps_02.gif)
+
+
+### [VPS] KITTI-STEP
+
+![vps_demo_3](assets/figs/vps/vps_03.gif)
 
 
 ## Citation
