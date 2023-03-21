@@ -39,19 +39,19 @@ Code will be released. Please stay tuned.
 
 ## Features
 
-### $\color{#2F6EBA}{Universal Video Segmentation Model}$ 
+### $\color{#2F6EBA}{Universal\ Video\ Segmentation\ Model}$ 
 
 - A new framework unifies online video segmentation methods and near online video segmentation methods
 - A new unified solution for three video segmentation tasks: VSS, VIS and VPS.
 
-### $\color{#2F6EBA}{Explore the Cross Tube Relation}$ 
+### $\color{#2F6EBA}{Explore\ the\ Cross\-Tube\ Relation}$ 
 
 - The first video segmentation method that explores the cross tube relation.
 - Proposed Tube-wise matching performs better Frame-wise matching.
 
-### $\color{#2F6EBA}{State-of-the-Art Performance}$  
+### $\color{#2F6EBA}{Strong\ Performance}$  
 - Achieves the strong performance on VIS, VSS and VPS datasets (five datasets)
-- Even better performance than those specific architecture.
+- Even better performance than those specific architectures.
 
 
 ## Visualization Results
