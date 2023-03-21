@@ -27,7 +27,7 @@
   </p>
 <br />
 
-****Universal Video Segmentation Model For VSS, VPS and VIS**
+**Universal Video Segmentation Model For VSS, VPS and VIS**
 
 ## Abstract
 
