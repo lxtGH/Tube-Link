@@ -21,13 +21,24 @@
     <a href='https://arxiv.org/abs/2303.12782'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
     </a>
-    <a href='' style='padding-left: 0.5rem;'>
+    <a href='https://github.com/lxtGH/Tube-Link' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
     </a>
   </p>
 <br />
 
 **Universal Video Segmentation Model For VSS, VPS and VIS**
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tube-link-a-flexible-cross-tube-baseline-for/video-panoptic-segmentation-on-vipseg)](https://paperswithcode.com/sota/video-panoptic-segmentation-on-vipseg?p=tube-link-a-flexible-cross-tube-baseline-for)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tube-link-a-flexible-cross-tube-baseline-for/video-semantic-segmentation-on-vspw)](https://paperswithcode.com/sota/video-semantic-segmentation-on-vspw?p=tube-link-a-flexible-cross-tube-baseline-for)
+
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tube-link-a-flexible-cross-tube-baseline-for/video-instance-segmentation-on-youtube-vis-1)](https://paperswithcode.com/sota/video-instance-segmentation-on-youtube-vis-1?p=tube-link-a-flexible-cross-tube-baseline-for)
+
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tube-link-a-flexible-cross-tube-baseline-for/video-instance-segmentation-on-youtube-vis-2)](https://paperswithcode.com/sota/video-instance-segmentation-on-youtube-vis-2?p=tube-link-a-flexible-cross-tube-baseline-for)
+
 
 
 ## Highlight!!!!
@@ -42,9 +53,6 @@ Video segmentation aims to segment and track every pixel in diverse scenarios ac
 
 
 ![teaser](./assets/figs/teaser.png)
-
-
-[[Paper]]() [[CODE]](https://github.com/lxtGH/Tube-Link)
 
 
 ## Features
