@@ -30,10 +30,10 @@
 **Universal Video Segmentation Model For VSS, VPS and VIS**
 
 
-## Hilight!!!!
+## Highlight!!!!
 
-The code will be definitely released. Please stay tuned !!!!! 
-We are still working to release a high quality video segmentation codebase using MMdetection!!!!
+**The code will be definitely released. Please stay tuned !!!!! 
+We are still working to release a high quality universal video segmentation codebase using MMDetection!!!!**
 
 ## Abstract
 
