@@ -2,7 +2,7 @@
 <p align="center">
   <h1 align="center">Tube-Link: A Flexible Cross Tube Baseline for Universal Video Segmentation</h1>
   <p align="center">
-    Arxiv, 2023
+    ICCV, 2023
     <br />
     <a href="https://lxtgh.github.io/"><strong>Xiangtai Li</strong></a>
     ·
