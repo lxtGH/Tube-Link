@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <h1 align="center">Tube-Link: A Flexible Cross Tube Baseline for Universal Video Segmentation</h1>
+  <h1 align="center">Tube-Link: A Flexible Cross Tube Framework for Universal Video Segmentation</h1>
   <p align="center">
     ICCV, 2023
     <br />
