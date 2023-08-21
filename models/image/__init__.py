@@ -1,0 +1,3 @@
+from .mask2former.mask2former import Mask2FormerCustom
+from .mask2former.mask2former_head import Mask2FormerHeadCustom
+from .mask2former.mask2former_head_no_stuff_match import Mask2FormerHeadCustomNoStuffMatch

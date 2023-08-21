@@ -1,8 +1,8 @@
 <br />
 <p align="center">
-  <h1 align="center">Tube-Link: A Flexible Cross Tube Framework for Universal Video Segmentation</h1>
+  <h1 align="center">Tube-Link: A Flexible Cross Tube Baseline for Universal Video Segmentation</h1>
   <p align="center">
-    ICCV, 2023
+    Arxiv, 2023
     <br />
     <a href="https://lxtgh.github.io/"><strong>Xiangtai Li</strong></a>
     ·
@@ -18,10 +18,10 @@
   </p>
 
   <p align="center">
-    <a href='https://arxiv.org/abs/2303.12782'>
+    <a href=''>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
     </a>
-    <a href='https://github.com/lxtGH/Tube-Link' style='padding-left: 0.5rem;'>
+    <a href='' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
     </a>
   </p>
@@ -29,57 +29,45 @@
 
 **Universal Video Segmentation Model For VSS, VPS and VIS**
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tube-link-a-flexible-cross-tube-baseline-for/video-panoptic-segmentation-on-vipseg)](https://paperswithcode.com/sota/video-panoptic-segmentation-on-vipseg?p=tube-link-a-flexible-cross-tube-baseline-for)
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tube-link-a-flexible-cross-tube-baseline-for/video-semantic-segmentation-on-vspw)](https://paperswithcode.com/sota/video-semantic-segmentation-on-vspw?p=tube-link-a-flexible-cross-tube-baseline-for)
+![avatar](./assets/figs/teaser.png)
 
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tube-link-a-flexible-cross-tube-baseline-for/video-instance-segmentation-on-youtube-vis-1)](https://paperswithcode.com/sota/video-instance-segmentation-on-youtube-vis-1?p=tube-link-a-flexible-cross-tube-baseline-for)
-
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tube-link-a-flexible-cross-tube-baseline-for/video-instance-segmentation-on-youtube-vis-2)](https://paperswithcode.com/sota/video-instance-segmentation-on-youtube-vis-2?p=tube-link-a-flexible-cross-tube-baseline-for)
-
-
-
-## Highlight!!!!
-
-**The code will be definitely released. Please stay tuned !!!!! 
-We are still working to release a high quality universal video segmentation codebase using MMDetection!!!!**
-
-## Abstract
-
-Video segmentation aims to segment and track every pixel in diverse scenarios accurately. In this paper, we present Tube-Link, a versatile framework that addresses multiple core tasks of video segmentation with a unified architecture. Our framework is a near-online approach that takes a short subclip as input and outputs the corresponding spatial-temporal tube masks. To enhance the modeling of cross-tube relationships, we propose an effective way to perform tube-level linking via attention along the queries. In addition, we introduce temporal contrastive learning to instance-wise discriminative features for the tube-level association. Our approach offers flexibility and efficiency for both short and long video inputs, as each subclip can vary in length according to the needs of datasets or scenarios. Tube-Link outperforms existing specialized architectures by a significant margin on five video segmentation datasets. Specifically, it achieves almost 13% relative improvements on VIPSeg and 4% improvements on KITTI-STEP over the strong baseline Video K-Net. When using a ResNet50 backbone on Youtube-VIS-2019 and 2021, Tube-Link boosts IDOL by 3% and 4%, respectively.
-
-
-
-![teaser](./assets/figs/teaser.png)
+[[Paper]](https://arxiv.org/abs/2303.12782) [[CODE]](https://github.com/lxtGH/Tube-Link)
 
 
 ## Features
 
 ### $\color{#2F6EBA}{Universal\ Video\ Segmentation\ Model}$ 
 
-- A new framework unifies online video segmentation methods and near online video segmentation methods
-- A new unified solution for three video segmentation tasks: VSS, VIS, and VPS.
+- A new framework unifies online video segmentation methods and near online video segmentation methods.
+- A new unified solution for three video segmentation tasks: VSS, VIS and VPS.
 
 ### $\color{#2F6EBA}{Explore\ the\ Cross\-Tube\ Relation}$ 
 
-- The first video segmentation method that explores the cross-tube relation.
-- Proposed tube-wise matching performs better than frame-wise matching.
+- The first video segmentation method that explores the cross tube relation.
+- Proposed Tube-wise matching performs better Frame-wise matching.
 
 ### $\color{#2F6EBA}{Strong\ Performance}$  
-- Achieves strong performance on VIS, VSS, and VPS datasets (five datasets) in one unified architecture.
+
+- Achieves the strong performance on VIS, VSS and VPS datasets (five datasets) in one unified architecture.
 - AchievesEven better performance than those specific architectures.
+
+### Dataset 
+
+See [Dataset.md](docs/DATASET.md)
+
+
+### Install
+
+See [Install.md](docs/INSTALL.md)
+
+
+### Training, Evaluation, and Models
+
+See [Tran.md](docs/TRAIN_EVALUATION_MODELS.md)
 
 
 ## Visualization Results
-### [VSS] VSPW
-<details open>
-<summary>Demo</summary>
-
-![vss_demo](assets/figs/vss/vspw.gif)
-
-</details>
 
 ### [VIS] Youtube-VIS 2019
 <details open>
@@ -102,6 +90,14 @@ Video segmentation aims to segment and track every pixel in diverse scenarios ac
 
 </details>
 
+### [VSS] VSPW
+<details open>
+<summary>Demo</summary>
+
+![vss_demo](assets/figs/vss/vspw.gif)
+
+</details>
+
 ### [VPS] KITTI-STEP
 <details open>
 <summary>Demo</summary>
@@ -111,14 +107,15 @@ Video segmentation aims to segment and track every pixel in diverse scenarios ac
 </details>
 
 
-
 ## Citation
-If you think Tube-Link is helpful in your research, please consider referring Tube-Link:
+
+If you think both Tube-Link and its codebase are useful for your research, please consider to refer Tube-Link:
+
 ```bibtex
 @article{li2023tube,
-  title={Tube-Link: A Flexible Cross Tube Baseline for Universal Video Segmentation},
+  title={Tube-link: A flexible cross tube baseline for universal video segmentation},
   author={Li, Xiangtai and Yuan, Haobo and Zhang, Wenwei and Cheng, Guangliang and Pang, Jiangmiao and Loy, Chen Change},
-  journal={arXiv pre-print},
-  year={2023},
+  journal={ICCV},
+  year={2023}
 }
 ```
