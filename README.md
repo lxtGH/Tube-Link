@@ -18,7 +18,7 @@
   </p>
 
   <p align="center">
-    <a href=''>
+    <a href='https://arxiv.org/pdf/2303.12782'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
     </a>
     <a href='' style='padding-left: 0.5rem;'>
@@ -112,7 +112,7 @@ See [Tran.md](docs/TRAIN_EVALUATION_MODELS.md)
 If you think both Tube-Link and its codebase are useful for your research, please consider to refer Tube-Link:
 
 ```bibtex
-@article{li2023tube,
+@inproceedings{li2023tube,
   title={Tube-link: A flexible cross tube baseline for universal video segmentation},
   author={Li, Xiangtai and Yuan, Haobo and Zhang, Wenwei and Cheng, Guangliang and Pang, Jiangmiao and Loy, Chen Change},
   journal={ICCV},
