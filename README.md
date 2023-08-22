@@ -109,13 +109,26 @@ See [Tran.md](docs/TRAIN_EVALUATION_MODELS.md)
 
 ## Citation
 
-If you think both Tube-Link and its codebase are useful for your research, please consider to refer Tube-Link:
+If you think both Tube-Link and its codebase are useful for your research, please consider referring Tube-Link:
 
 ```bibtex
+
 @inproceedings{li2023tube,
   title={Tube-link: A flexible cross tube baseline for universal video segmentation},
   author={Li, Xiangtai and Yuan, Haobo and Zhang, Wenwei and Cheng, Guangliang and Pang, Jiangmiao and Loy, Chen Change},
   journal={ICCV},
   year={2023}
 }
+
+@inproceedings{li2022videoknet,
+  title={Video k-net: A simple, strong, and unified baseline for video segmentation},
+  author={Li, Xiangtai and Zhang, Wenwei and Pang, Jiangmiao and Chen, Kai and Cheng, Guangliang and Tong, Yunhai and Loy, Chen Change},
+  booktitle={CVPR},
+  year={2022}
+}
+
 ```
+
+## License
+
+MIT 
