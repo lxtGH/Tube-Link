@@ -40,16 +40,16 @@
 ### $\color{#2F6EBA}{Universal\ Video\ Segmentation\ Model}$ 
 
 - A new framework unifies online video segmentation methods and near online video segmentation methods.
-- A new unified solution for three video segmentation tasks: VSS, VIS and VPS.
+- A new unified solution for three video segmentation tasks: VSS, VIS, and VPS.
 
 ### $\color{#2F6EBA}{Explore\ the\ Cross\-Tube\ Relation}$ 
 
-- The first video segmentation method that explores the cross tube relation.
-- Proposed Tube-wise matching performs better Frame-wise matching.
+- The first video segmentation method that explores the cross-tube relation.
+- Proposed Tube-wise matching performs better than Frame-wise matching.
 
 ### $\color{#2F6EBA}{Strong\ Performance}$  
 
-- Achieves the strong performance on VIS, VSS and VPS datasets (five datasets) in one unified architecture.
+- Achieves strong performance on VIS, VSS, and VPS datasets (five datasets) in one unified architecture.
 - AchievesEven better performance than those specific architectures.
 
 ### Dataset 
@@ -64,7 +64,7 @@ See [Install.md](docs/INSTALL.md)
 
 ### Training, Evaluation, and Models
 
-See [Tran.md](docs/TRAIN_EVALUATION_MODELS.md)
+See [Train.md](docs/TRAIN_EVALUATION_MODELS.md)
 
 
 ## Visualization Results
