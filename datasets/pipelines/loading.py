@@ -201,7 +201,7 @@ class LoadAnnotationsDirect:
         else:
             raise NotImplementedError
 
-        results['gt_semantic_seg'] = gt_semantic_seg.astype(np.int)
+        results['gt_semantic_seg'] = gt_semantic_seg.astype(np.int64)
         results['seg_fields'] = ['gt_semantic_seg']
         if self.with_ps_id:
             results['gt_panoptic_seg'] = ps_id
@@ -212,15 +212,15 @@ class LoadAnnotationsDirect:
         no_obj_class = results['no_obj_class']
         for pan_seg_id in np.unique(ps_id):
             classes.append(pan_seg_id // self.divisor)
-            masks.append((ps_id == pan_seg_id).astype(np.int))
+            masks.append((ps_id == pan_seg_id).astype(np.int64))
             instance_ids.append(pan_seg_id)
-        gt_labels = np.stack(classes).astype(np.int)
-        gt_instance_ids = np.stack(instance_ids).astype(np.int)
+        gt_labels = np.stack(classes).astype(np.int64)
+        gt_instance_ids = np.stack(instance_ids).astype(np.int64)
         _height = results['img_shape'][0] if 'img_shape' in results else ps_id.shape[-2]
         _width = results['img_shape'][1] if 'img_shape' in results else ps_id.shape[-1]
         gt_masks = BitmapMasks(masks, height=_height, width=_width)
         # check the sanity of gt_masks
-        verify = np.sum(gt_masks.masks.astype(np.int), axis=0)
+        verify = np.sum(gt_masks.masks.astype(np.int64), axis=0)
         assert (verify == np.ones(gt_masks.masks.shape[-2:], dtype=verify.dtype)).all()
         # now delete the no_obj_class
         gt_masks.masks = np.delete(gt_masks.masks, gt_labels == no_obj_class, axis=0)

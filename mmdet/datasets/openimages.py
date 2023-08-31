@@ -610,7 +610,7 @@ class OpenImagesDataset(CustomDataset):
         Returns:
             list[int]: All categories in the image of specified index.
         """
-        return self.get_ann_info(idx)['labels'].astype(np.int).tolist()
+        return self.get_ann_info(idx)['labels'].astype(np.int64).tolist()
 
     def evaluate(self,
                  results,

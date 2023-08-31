@@ -7,7 +7,7 @@ _base_ = [
 
 # load tube_link_vps coco r50
 load_from = 'https://download.openmmlab.com/mmdetection/v2.0/' \
-            'tube_link_vps/mask2former_r50_lsj_8x2_50e_coco-panoptic/' \
+            'mask2former/mask2former_r50_lsj_8x2_50e_coco-panoptic/' \
             'mask2former_r50_lsj_8x2_50e_coco-panoptic_20220326_224516-11a44721.pth'
 
 
@@ -252,3 +252,6 @@ lr_config = dict(
 runner = dict(type='EpochBasedRunner', max_epochs=8)
 
 find_unused_parameters=True
+
+
+work_dir="./work_dir/vipseg/r50"

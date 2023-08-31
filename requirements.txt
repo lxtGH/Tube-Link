@@ -1,0 +1,7 @@
+pycocotools==2.0.7
+timm==0.5.4
+tqdm==4.64.0
+wandb==0.13.0
+terminaltables==3.1.10
+seaborn
+scipy

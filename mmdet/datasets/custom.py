@@ -162,7 +162,7 @@ class CustomDataset(Dataset):
             list[int]: All categories in the image of specified index.
         """
 
-        return self.data_infos[idx]['ann']['labels'].astype(np.int).tolist()
+        return self.data_infos[idx]['ann']['labels'].astype(np.int64).tolist()
 
     def pre_pipeline(self, results):
         """Prepare results dict for pipeline."""

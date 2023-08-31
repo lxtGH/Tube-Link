@@ -397,7 +397,7 @@ class CocoVideoDataset(CocoDataset):
             seg_map=seg_map)
 
         if self.load_as_video:
-            ann['instance_ids'] = np.array(gt_instance_ids).astype(np.int)
+            ann['instance_ids'] = np.array(gt_instance_ids).astype(np.int64)
         else:
             ann['instance_ids'] = np.arange(len(gt_labels))
 
