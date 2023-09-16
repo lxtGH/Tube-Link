@@ -31,6 +31,11 @@
 
 ![avatar](./assets/figs/teaser.png)
 
+## News !!
+
+- Update Swin Large Config For Tube-Link VPS on VIP-Seg.
+
+- Code releasaed 
 
 [[Paper]](https://arxiv.org/abs/2303.12782) [[CODE]](https://github.com/lxtGH/Tube-Link)
 
