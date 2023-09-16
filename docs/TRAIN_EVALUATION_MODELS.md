@@ -73,4 +73,4 @@ The corresponding configs are in configs folder.
 
 You can download and inference for reproducing the results in our paper.
 
-Note that the model results on VIPSeg-VPS is a little higher than our paper reported. 
+Note that the model results on VIPSeg-VPS is a little higher than our paper reported due to the updated codebase.
