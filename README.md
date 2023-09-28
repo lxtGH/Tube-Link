@@ -121,7 +121,7 @@ If you think both Tube-Link and its codebase are useful for your research, pleas
 @inproceedings{li2023tube,
   title={Tube-link: A flexible cross tube baseline for universal video segmentation},
   author={Li, Xiangtai and Yuan, Haobo and Zhang, Wenwei and Cheng, Guangliang and Pang, Jiangmiao and Loy, Chen Change},
-  journal={ICCV},
+  booktitle={ICCV},
   year={2023}
 }
 
