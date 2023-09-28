@@ -33,7 +33,7 @@ train_pipeline = [
 
 test_pipeline = [
     dict(type='LoadMultiImagesFromFile', to_float32=True),
-    dict(type='SeqResizeWithDepth', img_scale=(640, 360), multiscale_mode='value', share_params=True,  keep_ratio=True),
+    dict(type='SeqResizeWithDepth', img_scale=(854, 480), multiscale_mode='value', share_params=True,  keep_ratio=True),
     dict(type='SeqNormalizeWithDepth', **img_norm_cfg),
     dict(type='SeqPadWithDepth', size_divisor=32),
     dict(type='VideoCollect', keys=['img']),
