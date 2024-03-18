@@ -55,7 +55,7 @@
 ### $\color{#2F6EBA}{Strong\ Performance}$  
 
 - Achieves strong performance on VIS, VSS, and VPS datasets (five datasets) in one unified architecture.
-- AchievesEven better performance than those specific architectures.
+- Achieves even better performance than those specific architectures.
 
 ### Dataset 
 
